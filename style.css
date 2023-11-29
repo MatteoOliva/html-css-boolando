@@ -43,6 +43,7 @@ main {
 .card {
   position: relative;
   width: calc(100% / 3);
+  flex-grow: 1;
 
   padding: 10px;
 }
@@ -70,4 +71,18 @@ footer {
   height: 90px;
   background-color: #1a1a1a;
   margin-top: 100px;
+}
+
+.card .back-img {
+  display: none;
+}
+.card:hover .front-img {
+  display: none;
+}
+
+.card:hover .back-img {
+  display: block;
+}
+img {
+  display: block;
 }
