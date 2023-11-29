@@ -77,3 +77,23 @@ main {
 img {
   display: block;
 }
+
+.wishlist {
+  position: absolute;
+  top: 1rem;
+  right: 0;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  background-color: white;
+}
+
+/* footer */
+
+footer {
+  width: 100%;
+  height: 90px;
+  background-color: #1a1a1a;
+  margin-top: 100px;
+}
